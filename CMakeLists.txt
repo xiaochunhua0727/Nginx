@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 3.5)
+project(subprojects)
+add_subdirectory(signal)
+add_subdirectory(proc)
+add_subdirectory(net)
+add_subdirectory(app)
